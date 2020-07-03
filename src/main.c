@@ -9,7 +9,7 @@ static char *address = (char *) DEFAULT_RTSP_ADDRESS;
 
 static GOptionEntry entries[] = {
   {"port", 'p', G_OPTION_FLAG_NONE, G_OPTION_ARG_STRING, &port, "Port to listen on (default: " DEFAULT_RTSP_PORT ")", "PORT"},
-  {"bind-address", 'b', G_OPTION_FLAG_NONE, G_OPTION_ARG_STRING, &port, "Bind server to address (default: " DEFAULT_RTSP_ADDRESS ")", "ADDRESS"},
+  {"bind-address", 'b', G_OPTION_FLAG_NONE, G_OPTION_ARG_STRING, &address, "Bind server to address (default: " DEFAULT_RTSP_ADDRESS ")", "ADDRESS"},
   {NULL}
 };
 
