@@ -8,10 +8,9 @@ Added features:
 Okay, in human language: Want to turn "USB Webcam + Raspberry PI" into an IP Camera? Or need to delivery audio from Raspberry PI to elsewhere over the network (using RTSP)? This project can be what you need.  
 
 Future plan:  
-1. Release pre-compiled binaries  
-2. Add more stdout and stderr output  
-3. Create Node.JS binding and start RTSP server easily in Node.JS  
-4. More platform and protocol support.  
+1. Add more stdout and stderr output  
+2. Create Node.JS binding and start RTSP server easily in Node.JS  
+3. More platform and protocol support.  
 
 Contributions are welcome.  
 
@@ -30,7 +29,10 @@ Here are some commonly used packages:
 gstreamer1.0-plugins-bad, gstreamer1.0-alsa, gstreamer1.0-libav, gstreamer1.0-rtsp  
 
 2. Download Pre-compiled Binaries  
-TODO  
+```
+wget https://github.com/johnnyxwan/gst-rtsp-cli/releases/download/0.0.1/gst-rtsp-cli
+chmod 744 gst-rtsp-cli
+```
 If you preferred compile the source code yourself, please refer to the Build section.  
 
 3. Start the Server  
