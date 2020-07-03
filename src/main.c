@@ -67,7 +67,7 @@ int main(int argc, char *argv[]) {
 
   /* Start server */
   gst_rtsp_server_attach(server, NULL);
-  g_print("RTSP Server Ready");
+  g_print("RTSP Server Ready\n");
   g_main_loop_run(loop);
 
   /* Normal return */
