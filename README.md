@@ -23,6 +23,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install gstreamer1.0-tools
 sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+sudo apt-get install libgstrtspserver-1.0-0
 ```
 Depends on application, other plugins might be needed in your particular pipeline.  
 Here are some commonly used packages:  
